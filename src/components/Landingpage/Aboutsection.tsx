@@ -1,5 +1,6 @@
 import Image from "next/image";
 import FeatureItem from "./Featureitem";
+import Link from "next/link";
 
 
 export default function AboutSection() {
@@ -67,9 +68,11 @@ export default function AboutSection() {
 
             {/* CTA */}
             <div className="pt-6">
+              <Link href={"https://calendly.com/staaa2023/30min"}>
               <button className="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
                 Schedule Consultation
               </button>
+              </Link>
             </div>
           </div>
 
