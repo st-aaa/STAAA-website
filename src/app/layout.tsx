@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// Global Metadata
+// Metadata including Google site verification and social previews
 export const metadata: Metadata = {
   title: "ST-AAA LLC | Business & Financial Services in Garland, TX",
   description:
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     "Entrepreneur Support",
   ],
   icons: {
-    icon: "/favicon.ico", // Browser tab
+    icon: "/favicon.ico",
     shortcut: "/favicon.ico",
-    apple: "/slogo.png", // iOS Safari icon (place a 180x180 PNG in /public)
+    apple: "/apple-touch-icon.png", // iOS Safari icon
   },
   authors: [{ name: "ST-AAA LLC" }],
   publisher: "ST-AAA LLC",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.st-aaa.com/slogo.png", // Recommended: 1200x630 banner/logo
+        url: "https://www.st-aaa.com/slogo.png", // 1200x630 recommended
         width: 1200,
         height: 630,
         alt: "ST-AAA LLC Logo",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     title: "ST-AAA LLC | Business & Financial Services",
     description:
       "Comprehensive business solutions for entrepreneurs and businesses in Garland, TX.",
-    creator: "@STAAALLC", // replace if you get a real handle
+    creator: "@STAAALLC", // replace with your Twitter handle
     images: ["https://www.st-aaa.com/slogo.png"],
   },
   other: {
