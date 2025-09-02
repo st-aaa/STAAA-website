@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         width: 200,
         height: 200,
         alt: "ST-AAA LLC Logo",
-      },
+      },]
   },
   twitter: {
     card: "summary_large_image",
